@@ -1,48 +1,3 @@
-// .dock{
-//     display: flex;
-//     align-items: center;
-//     position: absolute;
-//     bottom: 1rem;
-//     left:50% ;
-//     transform: translateX(-50%);
-//       background: rgba(63, 62, 62, 0.381);
-//      padding-inline: 1rem;
-//         padding-block: 0.75rem;
-//         border-radius: 0.5rem;
-//         backdrop-filter: blur(5px);
-
-//     .icon{
-//         padding: 0.65rem;
-//         border-radius: 0.25rem;
-//         display: flex;
-//         justify-content: center;
-//         align-items: center;
-//         aspect-ratio: 1/1;
-      
-       
-//     }
-
-//     .github, .cli{
-//             background: #000;
-            
-//     }
-//     .note{
-//         background:linear-gradient(to bottom ,rgb(254, 180, 28),rgb(254, 153, 28));
-//     }
-//     .pdf{
-//         background: linear-gradient(to bottom ,rgb(225,37,53),rgb(225,25,40) );
-//     }
-//     .calender, .mail{
-       
-//         background:linear-gradient(to bottom ,rgb(120, 62, 255), rgb(66, 62, 255)) ;
-//     }
-//     .spotify{
-//             background: linear-gradient(to bottom , rgb(78,176,33),rgb(53,142,12));
-//     }
-//     .link{
-//         background: linear-gradient(to bottom  , rgb(163,97,170),rgb(142,33,140));
-//     }
-// }
 
 .dock {
     display: flex;
@@ -61,7 +16,7 @@
     backdrop-filter: blur(5px);
 
     .icon {
-        padding: 0.65rem;
+        padding: 0.40rem;
         border-radius: 0.5rem;
         display: flex;
         justify-content: center;
@@ -69,6 +24,7 @@
 
         aspect-ratio: 1/1;
         width: 3.75rem;
+        // font-size: 20px;
 
         transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
     }
