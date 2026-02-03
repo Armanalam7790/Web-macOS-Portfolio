@@ -10,7 +10,7 @@ const App = () => {
     <Nav />
     <Dock />
     <MacWindow >
-      <h1>hello</h1>
+      <h1>portfolio in progress</h1>
     </MacWindow>
    </main>
   )
